@@ -63,8 +63,8 @@ Este projeto está licenciado sob a Licença MIT. Veja o arquivo LICENSE para ma
 
 ## 📞 Contato
 
-Carlise S. - @cvrsebastiany  
-Yan Braga - @YBraga35 - contato@yanbraga.com
+Carlise S. - [@cvrsebastiany](https://github.com/cvrsebastiany) - cvrsebastiany@gmail.com  
+Yan Braga - [@YBraga35](https://github.com/YBraga35) - contato@yanbraga.com
 
 Link do projeto: [GitHub](https://github.com/Fusca-Repositorio/algoritmos-ordenacao)
 
