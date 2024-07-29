@@ -1,66 +1,46 @@
+public class MergeSort {
+    public static int comparacoes = 0;
+    public static int trocas = 0;
 
+    public int[] ordenacaoMerge(int[] vetor, int esquerda, int direita) {
+        if (esquerda < direita) {
+            int meio = (esquerda + direita) / 2;
+            ordenacaoMerge(vetor, esquerda, meio);
+            ordenacaoMerge(vetor, meio + 1, direita);
+            mesclar(vetor, esquerda, meio, direita);
+        }
+        return vetor;
+    }
 
-public class Merge implements SortingAlgorithm {
-		
-		public void mergeSort(int[] v, int left, int right) {
-			
-			if (left < right) {
-				
-				int middle = (left + right) / 2;
-				mergeSort(v, left, middle);
-				mergeSort(v, middle + 1, right);
-		
-				merge(v, left, middle, right);
-			}
-			
-		}
-		
-		public void merge(int[] v, int left, int middle, int right) {
-			
-			// transfere os elementos entre left e right para o array auxiliar.
-			int[] helper = new int[v.length];
-			for (int i = left; i <= right; i++) {
-				helper[i] = v[i];
-			}
-			
-			
-			int i = left;
-			int j = middle + 1;
-			int k = left;
-			
-			while (i <= middle && j <= right) {
-				
-				if (helper[i] < helper[j]) {
-					v[k] = helper[i];
-					i++;
-				} else {
-					v[k] = helper[j];
-					j++;
-				}
-				k++;	
-				
-			}
-			
-			// se a metade inicial não foi toda consumida, faz o append.
-			while (i <= middle) {
-				v[k] = helper[i];
-				i++;
-				k++;
-			}
-			
-			// se a metade final não foi toda consumida, faz o append.
-			while (j <= right) {
-				v[k] = helper[j];
-				j++;
-				k++;
-			}
-
-		}
-
-		@Override
-		public void sort(int[] v) {
-			mergeSort(v, 0, v.length - 1);
-		}
-
-	}
-
+    public void mesclar(int[] vetor, int esquerda, int meio, int direita) {
+        int[] auxiliar = new int[vetor.length];
+        for (int i = esquerda; i <= direita; i++) {
+            auxiliar[i] = vetor[i];
+        }
+        int i = esquerda;
+        int j = meio + 1;
+        int k = esquerda;
+        while (i <= meio && j <= direita) {
+            comparacoes++;
+            if (auxiliar[i] <= auxiliar[j]) {
+                vetor[k] = auxiliar[i];
+                i++;
+            } else {
+                vetor[k] = auxiliar[j];
+                j++;
+                trocas++;
+            }
+            k++;
+        }
+        while (i <= meio) {
+            vetor[k] = auxiliar[i];
+            i++;
+            k++;
+        }
+        while (j <= direita) {
+            vetor[k] = auxiliar[j];
+            j++;
+            k++;
+        }
+    }
+}
