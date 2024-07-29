@@ -1,12 +1,12 @@
 
 # 🌳 Algoritmos de Ordenação - Trabalho 2
-[![Licença](https://img.shields.io/github/license//Fusca-Repositorio/algoritmos-ordenacao)](https://github.com/Fusca-Repositorio/algoritmos-ordenacao/blob/main/LICENSE)
+[![Licença](https://img.shields.io/github/license/Fusca-Repositorio/algoritmos-ordenacao)](https://github.com/Fusca-Repositorio/algoritmos-ordenacao/blob/main/LICENSE)
 [![Versão](https://img.shields.io/github/v/release/Fusca-Repositorio/algoritmos-ordenacao)](https://github.com/Fusca-Repositorio/algoritmos-ordenacao/releases)
-[![Status do Build](https://img.shields.io/github/workflow/status/Fusca-Repositorio/algoritmos-ordenacao/build)](https://github.com/Fusca-Repositorio/algoritmos-ordenacao/actions)
+[![Status do Build](https://img.shields.io/github/actions/workflow/status/Fusca-Repositorio/algoritmos-ordenacao/build.yml)](https://github.com/Fusca-Repositorio/algoritmos-ordenacao/actions)
 
-Esse projeto busca implementar e comparar os algoritmos de ordenação Merge Sort e Selection Sort.
+Este projeto busca implementar e comparar os algoritmos de ordenação Merge Sort e Selection Sort.
 
-<img src="https://i.pinimg.com/564x/c6/41/d4/c641d4c2d11c35a2959a4ff68f1348cd.jpg" alt="Descrição da Imagem" width="300">
+<img src="https://i.pinimg.com/564x/c6/41/d4/c641d4c2d11c35a2959a4ff68f1348cd.jpg" alt="Obrigado prof, desculpe pela imagem ter quebrado!" width="300">
 
 **Nossos mais sinceros agradecimentos a Prof. Isabel Siqueira**
 
