@@ -1,8 +1,8 @@
 
 # 🌳 Algoritmos de Ordenação - Trabalho 2
-[![Licença](https://img.shields.io/github/license/Fusca-Repositorio/ArvoreBinaria_Exercicio1)](https://github.com/Fusca-Repositorio/ArvBin-riaAVL_Ex2/blob/main/LICENSE)
-[![Versão](https://img.shields.io/github/v/release/Fusca-Repositorio/ArvoreBinaria_Exercicio1)](https://github.com/Fusca-Repositorio/ArvBin-riaAVL_Ex2/releases)
-[![Status do Build](https://img.shields.io/github/workflow/status/Fusca-Repositorio/ArvoreBinaria_Exercicio1/build)](https://github.com/Fusca-Repositorio/ArvBin-riaAVL_Ex2/actions)
+[![Licença](https://img.shields.io/github/license//Fusca-Repositorio/algoritmos-ordenacao)](https://github.com/Fusca-Repositorio/algoritmos-ordenacao/blob/main/LICENSE)
+[![Versão](https://img.shields.io/github/v/release/Fusca-Repositorio/algoritmos-ordenacao)](https://github.com/Fusca-Repositorio/algoritmos-ordenacao/releases)
+[![Status do Build](https://img.shields.io/github/workflow/status/Fusca-Repositorio/algoritmos-ordenacao/build)](https://github.com/Fusca-Repositorio/algoritmos-ordenacao/actions)
 
 Esse projeto busca implementar e comparar os algoritmos de ordenação Merge Sort e Selection Sort.
 
@@ -30,10 +30,10 @@ Passos para instalar e configurar o ambiente de desenvolvimento local.
 
 ```bash
 ### Clone o repositório
-git clone https://github.com/Fusca-Repositorio/ArvBin-riaAVL_Ex2.git
+git clone https://github.com/Fusca-Repositorio/algoritmos-ordenacao.git
 
 ### Navegue até o diretório do projeto
-cd ArvBin-riaAVL_Ex2
+cd algoritmos-ordenacao
 
 ### Compile os arquivos Java
 javac *.java
@@ -66,6 +66,6 @@ Este projeto está licenciado sob a Licença MIT. Veja o arquivo LICENSE para ma
 Carlise S. - @cvrsebastiany  
 Yan Braga - @YBraga35 - contato@yanbraga.com
 
-Link do projeto: [GitHub](https://github.com/Fusca-Repositorio/ArvBin-riaAVL_Ex2)
+Link do projeto: [GitHub](https://github.com/Fusca-Repositorio/algoritmos-ordenacao)
 
 ---
